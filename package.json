@@ -1,0 +1,32 @@
+{
+  "name": "base64-finder",
+  "version": "1.0.0",
+  "description": "Find Base64 blobs in a bigger corpus",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keybase/node-base64-finder.git"
+  },
+  "keywords": [
+    "Base64"
+  ],
+  "author": "Maxwell Krohn <max@keybase.io>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/keybase/node-base64-finder/issues"
+  },
+  "homepage": "https://github.com/keybase/node-base64-finder#readme",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "iced-coffee-script": "^108.0.9"
+  },
+  "dependencies": {
+    "iced-runtime": "^1.0.3"
+  }
+}
